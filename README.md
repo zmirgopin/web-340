@@ -1,2 +1,5 @@
-# web-340
-This is my Bellevue University web-340 course. 
+# WEB 340 Node.js. 
+## Contributors
+*Zahava Gopin
+*Professor Krasso
+#####This is my Bellevue University web-340 course. 
