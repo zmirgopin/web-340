@@ -1,4 +1,4 @@
-<script>
+
     /*
     ============================================
     ; Title:  books.js
@@ -38,4 +38,3 @@
     
     let bookStore = new BookStore();
     bookStore.showBooks();
-    </script>
