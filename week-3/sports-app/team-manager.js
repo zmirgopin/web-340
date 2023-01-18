@@ -53,6 +53,6 @@ module.exports.getTeam = function(name){
  */
 
 module.exports.displayTeam = function(Team){
-    return " Name: " + Team.name + "\n Mascot: " + Team.mascot + "\n Player Count: " + Team.playerCount + "\n" + "\n"; 
+    return "   Name: " + Team.name + "\n   Mascot: " + Team.mascot + "\n   Player Count: " + Team.playerCount + "\n"; 
 }
  
