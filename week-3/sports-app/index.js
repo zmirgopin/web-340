@@ -22,7 +22,7 @@ let allOutput = getTeamsModule.getTeams();
 //Displays the contents of the Team array
 
 console.log('--DISPLAYING TEAMS--');
-for (let Team of teams){
+for (let Team of allOutput){
     console.log(getTeamsModule.displayTeam(Team));
 }
 
