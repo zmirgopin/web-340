@@ -21,7 +21,7 @@ let allOutput = getTeamsModule.getTeams();
 
 //Displays the contents of the Team array
 
-console.log('--DISPLAYING TEAMS--');
+console.log(' --DISPLAYING TEAMS--');
 for (let Team of allOutput){
     console.log(getTeamsModule.displayTeam(Team));
 }
@@ -29,13 +29,15 @@ for (let Team of allOutput){
 /**
  * Display a single team. 
  */
+
+"use strict"; 
 let firstSingleTeam = getTeamsModule.getTeam('Patriots');
 
 let secondSingleTeam = getTeamsModule.getTeam('Falcons');
 
-console.log('--DISPLAYING A SINGLE TEAM--');
+console.log(' --DISPLAYING A SINGLE TEAM--');
 console.log(getTeamsModule.displayTeam(firstSingleTeam));
 
-console.log('--DISPLAYING A SINGLE TEAM--');
+console.log(' --DISPLAYING A SINGLE TEAM--');
 console.log(getTeamsModule.displayTeam(secondSingleTeam));
 
