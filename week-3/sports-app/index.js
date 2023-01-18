@@ -35,7 +35,7 @@ let firstSingleTeam = getTeamsModule.getTeam('Patriots');
 
 let secondSingleTeam = getTeamsModule.getTeam('Falcons');
 
-console.log('\n'+'   --DISPLAYING A SINGLE TEAM--');
+console.log('\n'+ '\n'+ '   --DISPLAYING A SINGLE TEAM--');
 console.log(getTeamsModule.displayTeam(firstSingleTeam));
 
 console.log('   --DISPLAYING A SINGLE TEAM--');
